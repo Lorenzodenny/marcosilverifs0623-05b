@@ -1,0 +1,191 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+    font-size: 1-2em;
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    line-height: 1.65em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+
+
+
+header{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+header button{
+    background-color:#f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 3% 8%;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 7% 0;
+}
+
+aside{
+    margin: 1px solid #dee1e3;
+}
+
+header #banner{
+    background-image: url("/lezione5/images/banner.jpg");
+    width: 100%;
+    background-position: 50% 10%;
+    background-size: cover;
+    border: none;
+}
+
+header #logo img{
+    width: 45%;
+    padding: 5%;
+}
+
+header #banner h1 {
+    font-size: 2em;
+  line-height: 1em;
+  text-align: center;
+  padding: 10% 20% 5% 20%;
+}
+
+
+
+main{
+    text-align: center;
+    padding: 5% 0;
+}
+
+main div h3{
+    padding: 3% 0;
+}
+
+main #notebook img{
+    width: 70%;
+    border-radius: 50%
+}
+
+main #notebook {
+    margin: 5% 0;
+}
+
+
+
+#ceo{
+    background-color:#f04c2f;
+    margin: 10% 0 5% 0;
+    color: white;
+    padding: 0 0 0 0;
+}
+
+#ceo h2{
+    color: white;
+    font-size: 2em;
+    padding: 10% 0 5% 0 ;
+}
+
+#ceo blockquote {
+    font-style: italic;
+}
+
+main #ceo-id {
+    padding: 6% 0;
+}
+
+main #ceo-id p:last-child{
+    font-size: 0.8em;
+}
+
+#aside-conteiner{
+    padding: 0 5%;
+    text-align: center;
+}
+
+aside #aside-conteiner div img {
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+
+aside #aside-conteiner div{
+    border: 2px solid #dee1e3;
+}
+
+aside #aside-conteiner h3{
+    padding: 3% 0;
+}
+
+aside #aside-conteiner p{
+    padding-bottom: 5%;
+}
+
+aside #aside-conteiner div{
+    margin: 5% 0;
+}
+
+footer{
+    color: white; /* colore del titolo */
+    font-weight: bold;
+    background-color: #25a2c3;
+    
+}
+
+footer a{
+    color: #c8e7f0;
+}
+
+footer ul li{
+    font-weight: lighter;
+}
+
+footer ul{
+    padding: 5% 0;
+}
+
+footer h2{
+    color: white;
+    font-size: 2em;
+    padding: 10% 0 0 0;
+}
+
+footer div ul li ion-icon {
+    background-color: white;
+    color: #25a2c3;
+    border-radius: 3px;
+}
+
+footer{
+    text-align: center;
+    color: #c8e7f0;
+    margin-top:15% ;
+}
+
+footer #copy{
+    border-top: 1px solid #c8e7f0;
+    width: 43%;
+    margin: 0 auto;
+    font-size: 0.9em;
+    font-weight: lighter;
+    padding: 5% 0 15% 0;
+}
